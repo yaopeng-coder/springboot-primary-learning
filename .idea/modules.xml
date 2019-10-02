@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo1/demo1.iml" filepath="$PROJECT_DIR$/demo1/demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-helloworld-quick/springboot-01-helloworld-quick.iml" filepath="$PROJECT_DIR$/springboot-01-helloworld-quick/springboot-01-helloworld-quick.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-02-config/springboot-02-config.iml" filepath="$PROJECT_DIR$/springboot-02-config/springboot-02-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-02-config-02/springboot-02-config-02.iml" filepath="$PROJECT_DIR$/springboot-02-config-02/springboot-02-config-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-02-config-autoconfig/springboot-02-config-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-02-config-autoconfig/springboot-02-config-autoconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-helloworld/springboot01helloworld.iml" filepath="$PROJECT_DIR$/springboot-01-helloworld/springboot01helloworld.iml" />
     </modules>
   </component>

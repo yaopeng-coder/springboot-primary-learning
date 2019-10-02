@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-   @Value("${person.user-name}")
+   @Value("${person1.user-name}")
     String name;
 
     @RequestMapping("/helloworld")

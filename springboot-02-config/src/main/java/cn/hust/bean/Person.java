@@ -18,7 +18,7 @@ import java.util.Map;
  * 一定还要加上@ConfigurationProperties(prefix = "person")注解
  */
 
-@ConfigurationProperties(prefix = "person")
+@ConfigurationProperties(prefix = "person1")
 @PropertySource(value = {"classpath:person.properties"})
 @Component
 @Validated
