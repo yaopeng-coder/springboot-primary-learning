@@ -1,0 +1,25 @@
+#person:
+#     userName: xiaoya
+#     age: 18
+#     boss: false
+#     date: 2019/10/02
+#     maps:
+#        k1: 大宝贝
+#        k2: 我爱你
+#     lists: [hello,world]
+#     dog: {dogName: 小狗,age: 2}server:server:server:server:
+server:
+     port: 8084
+#spring:
+#     profiles:
+#       active: dev
+---
+server:
+     port: 8085
+spring:
+     profiles: dev
+---
+server:
+     port: 8086
+spring:
+     profiles: pro
