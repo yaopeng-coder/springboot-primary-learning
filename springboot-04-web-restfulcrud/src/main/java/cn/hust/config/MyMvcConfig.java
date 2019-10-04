@@ -36,6 +36,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
             public void addViewControllers(ViewControllerRegistry registry) {
                 registry.addViewController("/").setViewName("index");
                 registry.addViewController("/index.html").setViewName("index");
+                //防止表单重复提交，以此设置该视图跳转
                 registry.addViewController("/main.html").setViewName("dashboard");
             }
 
