@@ -11,6 +11,7 @@ public class Springboot08TestApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("hello");
 	}
 
 }
